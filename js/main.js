@@ -23,7 +23,7 @@ let personalMovieDb = {
 };
 
 personalMovieDb.movies[a] = b;
-personalMovieDb.movies[b] = c;
+personalMovieDb.movies[c] = d;
 
 console.log (personalMovieDb);
 
