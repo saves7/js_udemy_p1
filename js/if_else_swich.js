@@ -1,5 +1,5 @@
 
-(true) ? console.log("Выражение верно") : console.log("Выражение не верно");
+(true) ?  console.log("Выражение верно") : console.log("Выражение не верно");
 
 
 let a =10;
