@@ -9,7 +9,7 @@ console.log(numberOfFilm);
 
 
 //3 поместить  в объек movies два ответа: фильм и рейтинг;
-let a = prompt('Фильм');
+/*let a = prompt('Фильм');
 let b = prompt('Рейтинг');
 let c = prompt('Фильм');
 let d = prompt('Рейтинг');
@@ -25,13 +25,24 @@ let personalMovieDb = {
 personalMovieDb.movies[a] = b;
 personalMovieDb.movies[c] = d;
 
-console.log (personalMovieDb);
-
-
-
-
+console.log (personalMovieDb);*/
 
 
 // 3 задать 2 раза вопросы: посмотренный фильм и его рейтинг, ответы в 
 //в movies так: movies: { 'logan' : '8.1'}
 
+let personalMovieDb = {
+    count: numberOfFilm,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
+};
+
+for (let i=0; i<2; i++) {
+    let a = prompt('Фильм'); 
+    let b = prompt('Рейтинг'); 
+    personalMovieDb.movies[a] = b;
+}
+
+console.log(personalMovieDb);
